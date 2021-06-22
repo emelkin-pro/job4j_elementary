@@ -5,10 +5,12 @@ public class Calculator {
         int result = first + second;
         System.out.println(result);
     }
+
+    @SuppressWarnings({"checkstyle:EmptyLineSeparator", "checkstyle:WhitespaceAfter", "checkstyle:MethodParamPad"})
     public static void main(String[] args) {
-        Calculator.plus (100,500);
-        Calculator.plus (4,2);
-        Calculator.plus (3,5);
+        Calculator.plus(100, 500);
+        Calculator.plus(4, 2);
+        Calculator.plus(3, 5);
 
     }
 }
