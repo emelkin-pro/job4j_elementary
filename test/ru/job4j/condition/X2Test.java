@@ -23,6 +23,7 @@ public class X2Test {
         /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C1X1Then3() {
         /* Входные параметры. Их будет 4 штуки */
@@ -39,6 +40,7 @@ public class X2Test {
         /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA0B1C1X1Then2() {
         /* Входные параметры. Их будет 4 штуки */
@@ -55,6 +57,7 @@ public class X2Test {
         /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C0X1Then2() {
         /* Входные параметры. Их будет 4 штуки */
@@ -71,6 +74,7 @@ public class X2Test {
         /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C1X0Then1() {
         /* Входные параметры. Их будет 4 штуки */
